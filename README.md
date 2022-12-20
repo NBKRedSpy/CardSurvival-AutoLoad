@@ -1,5 +1,5 @@
 # Auto Load
-Automatically loads the last loaded game.
+Automatically loads the last loaded game.  Primarily useful to modders.
 
 Hold shift key on game start to not auto load.
 
@@ -10,6 +10,14 @@ Note - The mod will not automatically load until the first load occurs after the
 |--|--|--|
 |LastLoadedSlot|0|The last slot loaded.  Set on first load.  1 is Slot 1, etc.|
 |AutoLoadDelayMilliseconds|2000|The number of milliseconds to wait for the shift key to abort the auto load.  Set to zero to immediately load.|
+
+# Changing the Configuration
+All options are contained in the config file which is located at ```<Steam Directory>\steamapps\common\Card Survival Tropical Island\BepInEx\config\AutoLoad.cfg```.
+
+The .cfg file will not exist until the mod is installed and then the game is run.
+
+To reset the config, delete the config file.  A new config will be created the next time the game is run.
+
 
 # Installation 
 This mod requires the BepInEx mod loader.
