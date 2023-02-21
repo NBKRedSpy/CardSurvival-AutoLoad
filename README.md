@@ -20,6 +20,11 @@ To reset the config, delete the config file.  A new config will be created the n
 
 
 # Installation 
+This section describes how to manually install the mod.
+
+If using the Vortex mod manager from NexusMods, these steps are not needed.  
+
+## Overview
 This mod requires the BepInEx mod loader.
 
 ## BepInEx Setup
